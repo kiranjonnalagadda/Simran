@@ -1,1 +1,0 @@
-CREATE TABLE simran_test (id INT, name VARCHAR(20));
