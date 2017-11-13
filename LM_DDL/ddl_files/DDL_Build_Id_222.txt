@@ -1,0 +1,1 @@
+create table kiran_test(id int);
