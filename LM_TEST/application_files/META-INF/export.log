@@ -1,0 +1,32 @@
+Success (1):
+content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 "SAMPLE_TEST_11"
+
+Referenced precedents that were not exported (1):
+content 43310 _a-0000df9d-6819-8000-aae2-01ef9001ef90_45160
+
+Trace:
+2017-11-16 12:08:12.139 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Begin transport.
+2017-11-16 12:08:12.139 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Retrieving object data.
+2017-11-16 12:08:12.144 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Setting uuids of object references.
+2017-11-16 12:08:12.144 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: [Content:id=44856,versionId=-1,name=SAMPLE_TEST_11,description=SAMPLE_TEST_11,type=32,subtype=0,uuid=_a-0000df9d-6819-8000-aae2-01ef9001ef90_46813,parent=43310,parentName=Sample Folder,parentType=2,log=44856,logName=SAMPLE_TEST_11,state=255,visibility=35,security=15,creator=krishnau,createdTimestamp=2017-11-16 06:10:43.0,updatedTimestamp=2017-11-16 06:10:43.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, isEnvironmentSpecific=false, value=null, returnType=1},partition=2,partitionName=/usr/local/appian/_admin/accdocs2]
+2017-11-16 12:08:12.144 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: Constant.forum
+2017-11-16 12:08:12.144 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: Constant.parent
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2572c8be[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Completing produce.
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Exporting binary resources.
+2017-11-16 12:08:12.146 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Serializing object to XML.
+2017-11-16 12:08:12.147 DEBUG content 44856 _a-0000df9d-6819-8000-aae2-01ef9001ef90_46813 Object transported.
