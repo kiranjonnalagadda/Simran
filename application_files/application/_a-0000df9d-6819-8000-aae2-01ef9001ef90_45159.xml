@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Leave Management System</name>
         <uuid>_a-0000df9d-6819-8000-aae2-01ef9001ef90_45159</uuid>
@@ -211,32 +212,32 @@
     </application>
     <roleMap>
         <contentRoleMap public="true">
-            <role allowForAll="false" inherit="false" name="readers">
+            <role inherit="false" allowForAll="false" name="readers">
                 <users/>
                 <groups/>
             </role>
-            <role allowForAll="false" inherit="false" name="authors">
+            <role inherit="false" allowForAll="false" name="authors">
                 <users/>
                 <groups/>
             </role>
-            <role allowForAll="false" inherit="false" name="administrators">
+            <role inherit="false" allowForAll="false" name="administrators">
                 <users>
                     <userUuid>krishnau</userUuid>
                 </users>
                 <groups/>
             </role>
-            <role allowForAll="false" inherit="false" name="denyReaders">
+            <role inherit="false" allowForAll="false" name="denyReaders">
                 <users/>
                 <groups/>
             </role>
-            <role allowForAll="false" inherit="false" name="denyAuthors">
+            <role inherit="false" allowForAll="false" name="denyAuthors">
                 <users/>
                 <groups/>
             </role>
-            <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <role inherit="false" allowForAll="false" name="denyAdministrators">
                 <users/>
                 <groups/>
             </role>
         </contentRoleMap>
     </roleMap>
-</applicationHaul><!--updated on 2017-11-22T16:32:05.101-->
+</applicationHaul>
